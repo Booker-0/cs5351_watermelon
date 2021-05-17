@@ -12,6 +12,7 @@ import com.framework.common.utils.security.Md5Utils;
 import com.framework.security.util.RedisCache;
 import com.framework.security.util.TokenUtil;
 import com.framework.security.util.UserUtil;
+import com.framework.utils.PinYinUtil;
 import com.projectm.config.MProjectConfig;
 import com.projectm.login.entity.LoginUser;
 import com.projectm.login.service.LoginService;
@@ -200,7 +201,9 @@ public class LoginController {
                 boolean used = true;
                 String account = null;
                 while (used) {
-                    account = IdUtil.fastSimpleUUID().substring(0, 7);
+//                    account = IdUtil.fastSimpleUUID().substring(0, 7);
+                   /*将用户名汉字转换成拼音*/
+                    account = PinYinUtil.getPinyin(name);
                     if (!accountList.contains(account)) {
                         used = false;
                     }
