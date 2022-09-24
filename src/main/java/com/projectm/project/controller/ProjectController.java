@@ -104,7 +104,6 @@ public class ProjectController extends BaseController {
 
     /**
      * 登录系统后，请求的索引
-     * @param
      * @return
      */
     @PostMapping("/index/index")
@@ -116,7 +115,7 @@ public class ProjectController extends BaseController {
 
     /**
      * 得到自己的项目日志
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project/getLogBySelfProject")
@@ -234,7 +233,7 @@ public class ProjectController extends BaseController {
 
     /**
      * 上传头像
-     * @param
+     * @param multipartFile
      * @return
      */
     @PostMapping("/index/uploadAvatar")

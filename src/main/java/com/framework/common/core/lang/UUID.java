@@ -1,6 +1,7 @@
 package com.framework.common.core.lang;
 
-import com.sun.xml.internal.ws.util.UtilException;
+
+import com.framework.common.exception.UtilException;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

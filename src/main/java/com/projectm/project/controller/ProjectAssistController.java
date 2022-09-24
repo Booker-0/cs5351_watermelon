@@ -62,8 +62,7 @@ public class ProjectAssistController  extends BaseController {
 
 
     /**编辑版本库
-     * @param
-     * @return
+     *
      */
     @PostMapping("/project_features/edit")
     @ResponseBody
@@ -90,10 +89,6 @@ public class ProjectAssistController  extends BaseController {
 
     }
 
-    /**删除版本库
-     * @param
-     * @return
-     */
     @PostMapping("/project_features/delete")
     @ResponseBody
     public AjaxResult getProjectVersionDelete(@RequestParam Map<String,Object> mmap){
@@ -106,7 +101,8 @@ public class ProjectAssistController  extends BaseController {
     }
 
     /**
-     * @param创建项目版本库
+     * 创建项目版本库
+     * @param mmap
      * @return
      */
     @PostMapping("/project_features/save")
@@ -132,11 +128,6 @@ public class ProjectAssistController  extends BaseController {
         return AjaxResult.success(projectFeaturesService.save(pf));
     }
 
-    /**
-     *
-     * @param
-     * @return
-     */
     @PostMapping("/project_features/index")
     @ResponseBody
     public AjaxResult projectProjectFeatures(@RequestParam Map<String,Object> mmap){
@@ -147,11 +138,6 @@ public class ProjectAssistController  extends BaseController {
         return AjaxResult.success(projectFeaturesService.getProjectFeaturesByProjectCode(projectCode));
     }
 
-
-    /**
-     * @param
-     * @return
-     */
     @PostMapping("/project_version/save")
     @ResponseBody
     public AjaxResult getProjectVersionSave(@RequestParam Map<String,Object> mmap){
@@ -195,8 +181,6 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 项目版本
-     * @param
-     * @return
      */
     @PostMapping("/project_version/index")
     @ResponseBody
@@ -237,7 +221,7 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 项目版本删除
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/delete")
@@ -250,7 +234,7 @@ public class ProjectAssistController  extends BaseController {
         return AjaxResult.success(projectVersionService.delProjectVersion(versionCode));
     }
     /**
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/_getVersionTask")
@@ -276,7 +260,7 @@ public class ProjectAssistController  extends BaseController {
     }
 
     /**查询版本日志
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/_getVersionLog")
@@ -317,7 +301,7 @@ public class ProjectAssistController  extends BaseController {
     }
 
     /**关联任务
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/addVersionTask")
@@ -372,7 +356,7 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 更改版本状态
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/changeStatus")
@@ -403,7 +387,7 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 项目版本编辑
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/edit")
@@ -478,7 +462,7 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 项目版本读取
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_version/read")
@@ -500,7 +484,7 @@ public class ProjectAssistController  extends BaseController {
 
     /**
      * 我的文件	移入回收站
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/project_info/index")
@@ -513,7 +497,7 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 我的文件	移入回收站
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/file/recycle")
@@ -535,7 +519,7 @@ public class ProjectAssistController  extends BaseController {
     }
     /**
      * 我的文件	改名
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/file/edit")
@@ -553,7 +537,7 @@ public class ProjectAssistController  extends BaseController {
 
     /**
      * 我的文件清单
-     * @param
+     * @param mmap
      * @return
      */
     @PostMapping("/file/index")

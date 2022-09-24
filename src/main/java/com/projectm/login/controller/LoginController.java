@@ -28,9 +28,7 @@ import com.projectm.project.domain.ProjectNode;
 import com.projectm.project.service.ProjectAuthNodeService;
 import com.projectm.project.service.ProjectAuthService;
 import com.projectm.project.service.ProjectNodeService;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import lombok.extern.slf4j.Slf4j;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -94,7 +92,7 @@ public class LoginController {
     public AjaxResult login(String account, String password) {
         //验证码验证
 
-        //用户验证
+        //User verification
         Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(account, password));
         LoginUser loginUser = (LoginUser) authentication.getPrincipal();
         String userCode = loginUser.getUser().getCode();
