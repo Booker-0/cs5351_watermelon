@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="smart-doc">
+    <title>watermelon</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="AllInOne.css?v=1663917908421"/>
+    
+    <style>.literalblock pre, .listingblock pre:not(.highlight), .listingblock pre[class="highlight"], .listingblock pre[class^="highlight "], .listingblock pre.CodeRay, .listingblock pre.prettyprint {
+        background: #f7f7f8;
+    }
+
+    .hljs {
+        padding: 0em;
+    }</style>
+    <script src="highlight.min.js"></script>
+    <script src="jquery.min.js"></script>
+</head>
+<body class="book toc2 toc-left">
+<div id="header"><h1>watermelon</h1>
+    <div id="toc" class="toc2">
+        <div id="book-search-input"><input id="search" type="text" placeholder="Type to search"></div>
+        <div id="toctitle"><span>API Reference</span></div>
+        <ul id="accordion" class="sectlevel1">
+            <li class=""><a class="dd" href="api.html#header">1.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="api.html#_1_1_新增保存部门">1.1.&nbsp;新增保存部门</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_2_">1.2.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_3_">1.3.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_4_">1.4.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_5_">1.5.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_6_">1.6.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_7_项目管理   项目列表    我的组织页面初始化">1.7.&nbsp;项目管理   项目列表    我的组织页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_8_项目管理   项目列表    我的组织页面初始化">1.8.&nbsp;项目管理   项目列表    我的组织页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_9_">1.9.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_10_">1.10.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_11_团队成员-查询用户">1.11.&nbsp;团队成员-查询用户</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_12_添加用户（从部门添加和从组织添加）">1.12.&nbsp;添加用户（从部门添加和从组织添加）</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_13_移除用户（从部门移除和从组织移除）">1.13.&nbsp;移除用户（从部门移除和从组织移除）</a>
+                    </li>
+
+                    <li><a
+                            href="api.html#_1_14_切换当前组织">1.14.&nbsp;切换当前组织</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="IndexController.html#header">2.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="IndexController.html#_2_1_">2.1.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="MemberController.html#header">3.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="MemberController.html#_3_1_账号停用">3.1.&nbsp;账号停用</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_2_">3.2.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_3_账号停用">3.3.&nbsp;账号停用</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_4_账号启用">3.4.&nbsp;账号启用</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_5_账号删除">3.5.&nbsp;账号删除</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_6_账号编辑">3.6.&nbsp;账号编辑</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_7_账号编辑">3.7.&nbsp;账号编辑</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_8_首页 > 成员 >vilson >任务安排">3.8.&nbsp;首页 &gt; 成员 &gt;vilson &gt;任务安排</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_9_">3.9.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_10_项目管理	我的项目 邀请新成员 模糊查询">3.10.&nbsp;项目管理	我的项目 邀请新成员 模糊查询</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_11_项目管理	我的项目 邀请新成员页面初始化">3.11.&nbsp;项目管理	我的项目 邀请新成员页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_12_项目管理	我的项目 项目设置 任务流转  规则创建页面初始化">3.12.&nbsp;项目管理	我的项目 项目设置 任务流转  规则创建页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_13_">3.13.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="MemberController.html#_3_14_">3.14.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="AuthorityControoler.html#header">4.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="AuthorityControoler.html#_4_1_系统设置/成员管理/访问授权/设置默认">4.1.&nbsp;系统设置/成员管理/访问授权/设置默认</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_2_系统设置/成员管理/访问授权/设置默认">4.2.&nbsp;系统设置/成员管理/访问授权/设置默认</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_3_系统设置/成员管理/访问授权/删除">4.3.&nbsp;系统设置/成员管理/访问授权/删除</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_4_系统设置/成员管理/访问授权">4.4.&nbsp;系统设置/成员管理/访问授权</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_5_系统设置/成员管理/访问授权 编辑保存">4.5.&nbsp;系统设置/成员管理/访问授权 编辑保存</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_6_系统设置/成员管理/访问授权 添加保存">4.6.&nbsp;系统设置/成员管理/访问授权 添加保存</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_7_系统设置	系统管理	菜单编辑">4.7.&nbsp;系统设置	系统管理	菜单编辑</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_8_系统设置	系统管理	菜单启用">4.8.&nbsp;系统设置	系统管理	菜单启用</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_9_系统设置	系统管理	菜单启用">4.9.&nbsp;系统设置	系统管理	菜单启用</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_10_系统设置	系统管理	菜单禁用">4.10.&nbsp;系统设置	系统管理	菜单禁用</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_11_系统设置	系统管理	菜单路由">4.11.&nbsp;系统设置	系统管理	菜单路由</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_12_系统设置	系统管理	菜单路由 添加菜单  节点初始化">4.12.&nbsp;系统设置	系统管理	菜单路由 添加菜单  节点初始化</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_13_">4.13.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_14_">4.14.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="AuthorityControoler.html#_4_15_系统设置	系统管理	菜单路由 添加菜单  保存">4.15.&nbsp;系统设置	系统管理	菜单路由 添加菜单  保存</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="ProjectAssistController.html#header">5.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="ProjectAssistController.html#_5_1_编辑版本库">5.1.&nbsp;编辑版本库</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_2_">5.2.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_3_创建项目版本库">5.3.&nbsp;创建项目版本库</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_4_">5.4.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_5_">5.5.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_6_项目版本">5.6.&nbsp;项目版本</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_7_">5.7.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_8_项目版本删除">5.8.&nbsp;项目版本删除</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_9_">5.9.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_10_查询版本日志">5.10.&nbsp;查询版本日志</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_11_关联任务">5.11.&nbsp;关联任务</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_12_更改版本状态">5.12.&nbsp;更改版本状态</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_13_项目版本编辑">5.13.&nbsp;项目版本编辑</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_14_项目版本读取">5.14.&nbsp;项目版本读取</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_15_我的文件	移入回收站">5.15.&nbsp;我的文件	移入回收站</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_16_我的文件	移入回收站">5.16.&nbsp;我的文件	移入回收站</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_17_我的文件	改名">5.17.&nbsp;我的文件	改名</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_18_我的文件清单">5.18.&nbsp;我的文件清单</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_19_每一个上传块都会包含如下分块信息：
+chunkNumber: 当前块的次序，第一个块是 1，注意不是从 0 开始的。
+totalChunks: 文件被分成块的总数。
+chunkSize: 分块大小，根据 totalSize 和这个值你就可以计算出总共的块数。注意最后一块的大小可能会比这个要大。
+currentChunkSize: 当前块的大小，实际大小。
+totalSize: 文件总大小。
+identifier: 这个就是每个文件的唯一标示。
+filename: 文件名。
+relativePath: 文件夹上传的时候文件的相对路径属性。
+一个分块可以被上传多次，当然这肯定不是标准行为，但是在实际上传过程中是可能发生这种事情的，这种重传也是本库的特性之一。
+
+根据响应码认为成功或失败的：
+200 文件上传完成
+201 文加快上传成功
+500 第一块上传失败，取消整个文件上传
+507 服务器出错自动重试该文件块上传
+
+此处仍不完善，未处理断点续传加密、秒传处理等。">5.19.&nbsp;每一个上传块都会包含如下分块信息：<br>chunkNumber: 当前块的次序，第一个块是 1，注意不是从 0 开始的。<br>totalChunks: 文件被分成块的总数。<br>chunkSize: 分块大小，根据 totalSize 和这个值你就可以计算出总共的块数。注意最后一块的大小可能会比这个要大。<br>currentChunkSize: 当前块的大小，实际大小。<br>totalSize: 文件总大小。<br>identifier: 这个就是每个文件的唯一标示。<br>filename: 文件名。<br>relativePath: 文件夹上传的时候文件的相对路径属性。<br>一个分块可以被上传多次，当然这肯定不是标准行为，但是在实际上传过程中是可能发生这种事情的，这种重传也是本库的特性之一。<br><br>根据响应码认为成功或失败的：<br>200 文件上传完成<br>201 文加快上传成功<br>500 第一块上传失败，取消整个文件上传<br>507 服务器出错自动重试该文件块上传<br><br>此处仍不完善，未处理断点续传加密、秒传处理等。</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_20_">5.20.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectAssistController.html#_5_21_">5.21.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="CommonController.html#header">6.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="CommonController.html#_6_1_通用下载请求">6.1.&nbsp;通用下载请求</a>
+                    </li>
+
+                    <li><a
+                            href="CommonController.html#_6_2_">6.2.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="ProjectController.html#header">7.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="ProjectController.html#_7_1_登录系统后，请求的索引">7.1.&nbsp;登录系统后，请求的索引</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_2_得到自己的项目日志">7.2.&nbsp;得到自己的项目日志</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_3_">7.3.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_4_">7.4.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_5_上传头像">7.5.&nbsp;上传头像</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_6_">7.6.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_7_项目管理	我的项目 项目设置 项目删除（回收站）">7.7.&nbsp;项目管理	我的项目 项目设置 项目删除（回收站）</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_8_项目管理	我的项目 项目设置 项目删除（回收站）">7.8.&nbsp;项目管理	我的项目 项目设置 项目删除（回收站）</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_9_项目管理	我的项目 项目设置 项目删除恢复（回收站）">7.9.&nbsp;项目管理	我的项目 项目设置 项目删除恢复（回收站）</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_10_项目管理	我的项目 项目设置 项目归档">7.10.&nbsp;项目管理	我的项目 项目设置 项目归档</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_11_项目管理	已归档项目  取消归档">7.11.&nbsp;项目管理	已归档项目  取消归档</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_12_">7.12.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_13_项目管理	我的项目 项目设置 编辑保存">7.13.&nbsp;项目管理	我的项目 项目设置 编辑保存</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_14_">7.14.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_15_项目管理	我的项目 项目设置打开">7.15.&nbsp;项目管理	我的项目 项目设置打开</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_16_项目管理	我的项目 点击项目进行详细页面初始化">7.16.&nbsp;项目管理	我的项目 点击项目进行详细页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_17_项目管理	我的项目 加入/取消收藏">7.17.&nbsp;项目管理	我的项目 加入/取消收藏</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_18_项目管理	我的项目 页面初始化">7.18.&nbsp;项目管理	我的项目 页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_19_">7.19.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_20_项目管理  基础设置  项目模板  项目模板删除">7.20.&nbsp;项目管理  基础设置  项目模板  项目模板删除</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_21_项目管理  基础设置  项目模板  项目模板编辑保存">7.21.&nbsp;项目管理  基础设置  项目模板  项目模板编辑保存</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_22_">7.22.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_23_">7.23.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_24_">7.24.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_25_项目管理  基础设置  项目模板  制作项目模板保存">7.25.&nbsp;项目管理  基础设置  项目模板  制作项目模板保存</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_26_创建新项目->保存">7.26.&nbsp;创建新项目-&gt;保存</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_27_">7.27.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_28_">7.28.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_29_">7.29.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="ProjectController.html#_7_30_">7.30.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="NodeController.html#header">8.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="NodeController.html#_8_1_">8.1.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="NotifyController.html#header">9.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="NotifyController.html#_9_1_">9.1.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="NotifyController.html#_9_2_">9.2.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="NotifyController.html#_9_3_">9.3.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="NotifyController.html#_9_4_">9.4.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="NotifyController.html#_9_5_项目管理	消息提醒 页面初始化">9.5.&nbsp;项目管理	消息提醒 页面初始化</a>
+                    </li>
+
+                    <li><a
+                            href="NotifyController.html#_9_6_">9.6.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="TaskFileController.html#header">10.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="TaskFileController.html#_10_1_任务模板下载">10.1.&nbsp;任务模板下载</a>
+                    </li>
+
+                    <li><a
+                            href="TaskFileController.html#_10_2_文件上传">10.2.&nbsp;文件上传</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="TaskController.html#header">11.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="TaskController.html#_11_1_项目管理	我的项目 项目打开 任务清单 打开任务详情 设置任务结束时间、备注、优先级">11.1.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 设置任务结束时间、备注、优先级</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_2_项目管理	我的项目 项目打开 任务清单 打开任务详情 设置任务结束时间、备注、优先级">11.2.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 设置任务结束时间、备注、优先级</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_3_项目管理	我的项目 项目打开 任务清单 打开任务详情 设置任务结束时间、备注、优先级">11.3.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 设置任务结束时间、备注、优先级</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_4_项目管理	我的项目 项目打开 任务清单 打开任务详情 添加评论">11.4.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 添加评论</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_5_项目管理	我的项目 项目打开 任务清单 打开任务详情 编辑工时">11.5.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 编辑工时</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_6_">11.6.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_7_">11.7.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_8_项目管理	我的项目 项目打开 任务清单 打开任务详情 编辑工时">11.8.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 编辑工时</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_9_项目管理	我的项目 项目打开 任务清单 打开任务详情 添加工时">11.9.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 添加工时</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_10_">11.10.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_11_未完成
+项目管理	我的项目 项目打开 任务清单 打开任务详情 添加子任务">11.11.&nbsp;未完成<br>项目管理	我的项目 项目打开 任务清单 打开任务详情 添加子任务</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_12_项目管理	我的项目 项目打开 任务清单 打开任务详情 新建标签保存">11.12.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 新建标签保存</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_13_项目管理	我的项目 项目打开 任务清单 打开任务详情 编辑标签保存">11.13.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 编辑标签保存</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_14_项目管理	我的项目 项目打开 任务清单 打开任务详情 新建标签保存">11.14.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 新建标签保存</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_15_项目管理	我的项目 项目打开 任务清单 打开任务详情 添加加标签初始化">11.15.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 添加加标签初始化</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_16_项目管理	我的项目 项目打开 任务清单 打开任务详情 添加加标签初始化">11.16.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情 添加加标签初始化</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_17_项目管理	我的项目 项目打开 任务清单 打开任务详情">11.17.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_18_项目管理	我的项目 项目打开 任务清单 打开任务详情">11.18.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_19_">11.19.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_20_">11.20.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_21_项目管理	我的项目 项目打开 任务清单 打开任务详情">11.21.&nbsp;项目管理	我的项目 项目打开 任务清单 打开任务详情</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_22_">11.22.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_23_">11.23.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_24_">11.24.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_25_项目管理	我的项目 项目打开 任务清单">11.25.&nbsp;项目管理	我的项目 项目打开 任务清单</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_26_项目管理	我的项目 项目设置 任务流转 创建规则打开">11.26.&nbsp;项目管理	我的项目 项目设置 任务流转 创建规则打开</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_27_项目管理	我的项目 项目设置 任务流转 编辑任务">11.27.&nbsp;项目管理	我的项目 项目设置 任务流转 编辑任务</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_28_项目管理	我的项目 项目设置 任务流转 创建规则打开">11.28.&nbsp;项目管理	我的项目 项目设置 任务流转 创建规则打开</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_29_">11.29.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_30_项目管理	我的项目 项目设置 任务流转 创建规则保存">11.30.&nbsp;项目管理	我的项目 项目设置 任务流转 创建规则保存</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_31_">11.31.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_32_">11.32.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_33_">11.33.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_34_">11.34.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_35_">11.35.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_36_">11.36.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_37_">11.37.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_38_">11.38.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskController.html#_11_39_">11.39.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="open"><a class="dd" href="TaskStageController.html#header">12.&nbsp;</a>
+                <ul class="sectlevel2" style="display: block">
+                    <li><a
+                            href="TaskStageController.html#_12_1_">12.1.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskStageController.html#_12_2_">12.2.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskStageController.html#_12_3_">12.3.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskStageController.html#_12_4_">12.4.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="TaskStageController.html#_12_5_保存任务流转">12.5.&nbsp;保存任务流转</a>
+                    </li>
+
+                    <li><a
+                            href="TaskStageController.html#_12_6_编辑任务流转">12.6.&nbsp;编辑任务流转</a>
+                    </li>
+
+                    <li><a
+                            href="TaskStageController.html#_12_7_删除任务流转">12.7.&nbsp;删除任务流转</a>
+                    </li>
+                </ul>
+            </li>
+            <li class=""><a class="dd" href="LoginController.html#header">13.&nbsp;</a>
+                <ul class="sectlevel2" style="display: none">
+                    <li><a
+                            href="LoginController.html#_13_1_登录方法">13.1.&nbsp;登录方法</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_2_刷新Token">13.2.&nbsp;刷新Token</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_3_获取验证码">13.3.&nbsp;获取验证码</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_4_注册用户">13.4.&nbsp;注册用户</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_5_修改密码">13.5.&nbsp;修改密码</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_6_绑定号码">13.6.&nbsp;绑定号码</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_7_">13.7.&nbsp;</a>
+                    </li>
+
+                    <li><a
+                            href="LoginController.html#_13_8_">13.8.&nbsp;</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+    <div class="sect1"><h2 id="_"><a class="anchor" href="#_"></a><a class="link" href="#_">12.&nbsp;</a>
+    </h2>
+        <div class="sectionbody">
+            <div class="sect2"><h3 id="_12_1_">
+                <a class="anchor" href="#_12_1_"></a>
+                <a class="link" href="#_12_1_">12.1.&nbsp;</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_stages_template/index" class="bare">&nbsp;/project/task_stages_template/index</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object.</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_stages_template/index --data 'mmap='</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_12_2_">
+                <a class="anchor" href="#_12_2_"></a>
+                <a class="link" href="#_12_2_">12.2.&nbsp;</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_stages_template/save" class="bare">&nbsp;/project/task_stages_template/save</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object.</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_stages_template/save --data 'mmap='</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_12_3_">
+                <a class="anchor" href="#_12_3_"></a>
+                <a class="link" href="#_12_3_">12.3.&nbsp;</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_stages_template/edit" class="bare">&nbsp;/project/task_stages_template/edit</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object.</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_stages_template/edit --data 'mmap='</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_12_4_">
+                <a class="anchor" href="#_12_4_"></a>
+                <a class="link" href="#_12_4_">12.4.&nbsp;</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_stages_template/delete" class="bare">&nbsp;/project/task_stages_template/delete</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">object</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">any object.</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_stages_template/delete --data 'mmap='</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_12_5_保存任务流转">
+                <a class="anchor" href="#_12_5_保存任务流转"></a>
+                <a class="link" href="#_12_5_保存任务流转">12.5.&nbsp;保存任务流转</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_workflow/save" class="bare">&nbsp;/project/task_workflow/save</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;保存任务流转</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">projectCode</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">taskWorkflowName</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">taskWorkflowRules</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_workflow/save --data 'projectCode=22405&taskWorkflowName=keira.emmerich&taskWorkflowRules=ab9eze'</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_12_6_编辑任务流转">
+                <a class="anchor" href="#_12_6_编辑任务流转"></a>
+                <a class="link" href="#_12_6_编辑任务流转">12.6.&nbsp;编辑任务流转</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_workflow/edit" class="bare">&nbsp;/project/task_workflow/edit</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;编辑任务流转</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">taskWorkflowCode</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">taskWorkflowName</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">taskWorkflowRules</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_workflow/edit --data 'taskWorkflowCode=22405&taskWorkflowName=keira.emmerich&taskWorkflowRules=h6rkux'</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sect2"><h3 id="_12_7_删除任务流转">
+                <a class="anchor" href="#_12_7_删除任务流转"></a>
+                <a class="link" href="#_12_7_删除任务流转">12.7.&nbsp;删除任务流转</a>
+            </h3>
+                <div class="paragraph"><p><strong>URL:</strong><a href="/project/task_workflow/delete" class="bare">&nbsp;/project/task_workflow/delete</a>
+                </p></div>
+                <div class="paragraph"><p><strong>Type:</strong>&nbsp;POST</p></div>
+                <div class="paragraph"><p><strong>Content-Type:</strong>&nbsp;application/x-www-form-urlencoded;charset=UTF-8</p></div>
+                <div class="paragraph"><p><strong>Description:</strong>&nbsp;删除任务流转</p></div>
+                <div class="paragraph"><p><strong>Query-parameters:</strong></p></div>
+                <table class="tableblock frame-all grid-all spread">
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="tableblock halign-left valign-top">Parameter</th>
+                        <th class="tableblock halign-left valign-top">Type</th>
+                        <th class="tableblock halign-left valign-top">Description</th>
+                        <th class="tableblock halign-left valign-top">Required</th>
+                        <th class="tableblock halign-left valign-top">Since</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">taskWorkflowCode</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">string</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">No comments found.<br></p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
+                        <td class="tableblock halign-left valign-top"><p class="tableblock">-</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="paragraph"><p><strong>Request-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="bash">curl -X POST -i /project/task_workflow/delete --data 'taskWorkflowCode=22405'</code></pre>
+                    </div>
+                </div>
+                <div class="paragraph"><p><strong>Response-example:</strong></p></div>
+                <div class="listingblock">
+                    <div class="content">
+                        <pre><code class="json">{}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer"><span class="copyright">Generated by smart-doc at 2022-09-23 15:25:08</span><span
+            class="footer-modification">Suggestions,contact,support and error reporting on<a
+            href="https://gitee.com/smart-doc-team/smart-doc" target="_blank">&nbsp;Gitee</a>&nbsp;or<a
+            href="https://github.com/smart-doc-group/smart-doc.git" target="_blank">&nbsp;Github</a></span></footer>
+</div>
+<script src="search.js?v=1663917908421"></script>
+<script>
+    $(function () {
+        const Accordion = function (el, multiple) {
+            this.el = el || {};
+            this.multiple = multiple || false;
+            const links = this.el.find('.dd');
+            links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown);
+        };
+        Accordion.prototype.dropdown = function (e) {
+            const $el = e.data.el;
+            const $this = $(this), $next = $this.next();
+            $next.slideToggle();
+            $this.parent().toggleClass('open');
+            if (!e.data.multiple) {
+                $el.find('.submenu').not($next).slideUp("20").parent().removeClass('open');
+            }
+        };
+        new Accordion($('#accordion'), false);
+        hljs.highlightAll()
+    });
+</script>
+</body>
+</html>
