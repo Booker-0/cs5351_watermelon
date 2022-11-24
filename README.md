@@ -15,3 +15,8 @@ Machine Learning Branch
   The backbone is optional in training user based checkpoints. By default, the backbone is not pretrained
   on this dataset.
 
+
+Running:
+To launch the API, run the machine_learning_api.py. 
+This will launch the API at the url http://localhost:5000, with the routes /train and /predict
+
