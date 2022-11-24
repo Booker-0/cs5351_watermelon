@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<html>
+<body>
+<script>
+
+//call API
+const fetchData = () => {
+    return new Promise((resolve, reject) => (
+        url = "http://localhost:5000/predict?employee_name=TestUser&project_name=Project1&deadline=50&project_est_hours=200&data=9&data=2&data=6&data=6&data=12&data=19",
+        fetch(url)
+        .then(res => res.json())
+        .then(data => resolve(data))
+        .catch(err => reject(err))
+    ))
+}
+
+async function getData() {
+    const data = await fetchData()
+    input_data = data.input_data;
+    predicted_data = data.predicted_data;
+    days = data.days;
+    deadline = data.deadline;
+    will_complete_by_deadline = data.will_complete_by_deadline;
+
+    document.write("<p> Input data (X axis on graph): "+input_data+"</p>")
+    document.write("<p> Predicted Data (X axis on graph): "+predicted_data+"</p>")
+    document.write("<i> Note: Input Data and Predicted Data should be displayed after each other </i>")
+    document.write("<p> Days (X axis on graph): "+days+"</p>")
+    document.write("<p> Deadline: "+deadline+"</p>")
+    document.write("<i> Note: IF max(Days) < Deadline, the task WILL complete in time </i>")
+    document.write("<p> Boolean Integer (Will the task complete on time): "+will_complete_by_deadline+"</p>")
+    return data;
+}
+
+getData().then(data => {
+    console.log(data);
+})
+</script>
+
+</body>
+</html>
