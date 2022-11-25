@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm-windows-upgrade' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData npm-windows-upgrade
+8 silly fetchNamedPackageData npm-windows-upgrade
+9 silly mapToRegistry name npm-windows-upgrade
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/npm-windows-upgrade
+13 verbose request uri https://registry.npmjs.org/npm-windows-upgrade
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 3:18:38 PM
+16 verbose request id 8fdef719a399c820
+17 http request GET https://registry.npmjs.org/npm-windows-upgrade
+18 http 200 https://registry.npmjs.org/npm-windows-upgrade
+19 verbose headers { date: 'Sun, 23 Oct 2022 07:18:38 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'cf-ray': '75e8b3299c630470-HKG',
+19 verbose headers   'access-control-allow-origin': '*',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"aba71273b837f220adef2d73fdb7d9e8"',
+19 verbose headers   'last-modified': 'Wed, 22 Jun 2022 09:47:22 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'MISS',
+19 verbose headers   'x-amz-replication-status': 'COMPLETED',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Sun, 23 Oct 2022 07:18:38 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'cf-ray': '75e8b3299c630470-HKG',
+20 silly get     'access-control-allow-origin': '*',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"aba71273b837f220adef2d73fdb7d9e8"',
+20 silly get     'last-modified': 'Wed, 22 Jun 2022 09:47:22 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'MISS',
+20 silly get     'x-amz-replication-status': 'COMPLETED',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving npm-windows-upgrade to /home/group1/.npm/registry.npmjs.org/npm-windows-upgrade/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly rollbackFailedOptional Starting
+35 silly rollbackFailedOptional Finishing
+36 silly runTopLevelLifecycles Starting
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: Unsupported
+39 verbose stack     at checkPlatform (/usr/share/npm/node_modules/npm-install-checks/index.js:46:14)
+39 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+39 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+39 verbose stack     at /usr/share/npm/node_modules/slide/lib/chain.js:18:7
+39 verbose stack     at checkEngine (/usr/share/npm/node_modules/npm-install-checks/index.js:25:10)
+39 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+39 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+39 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+39 verbose stack     at module.exports.isInstallable (/usr/share/npm/lib/install/validate-args.js:26:3)
+39 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+40 verbose pkgid npm-windows-upgrade@6.0.1
+41 verbose cwd /home/group1/watermelon/backend/sfeng
+42 error Linux 4.15.0-55-generic
+43 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "npm-windows-upgrade"
+44 error node v8.10.0
+45 error npm  v3.5.2
+46 error code EBADPLATFORM
+47 error notsup Not compatible with your operating system or architecture: npm-windows-upgrade@6.0.1
+48 error notsup Valid OS:    win32
+48 error notsup Valid Arch:  any
+48 error notsup Actual OS:   linux
+48 error notsup Actual Arch: x64
+49 verbose exit [ 1, true ]

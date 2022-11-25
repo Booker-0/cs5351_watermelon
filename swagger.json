@@ -1,0 +1,632 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "watermelon API",
+    "description": "Simple RESTful API in Node.js with JavaScript",
+    "version": "0.0.1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local server"
+    }
+  ],
+  "paths": {
+    "/gitbranch/:repo": {
+      "get": {
+        "summary": "Return all gitbranches of the provided repository",
+        "description": "Return all gitbranches",
+        "parameters": [
+            {
+              "name": "repo",
+              "in": "path",
+              "required": true,
+              "description": "A repository name (string)"
+            }
+      ],
+        "responses": {
+          "200": {
+            "description": "A JSON array of gitbranches",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Branch"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gitbranch/:repo/:branch": {
+      "get": {
+        "summary": "Get all commit info of the git hub repository branch",
+        "description": "Return all commit information",
+        "parameters": [
+            {
+              "name": "repo",
+              "in": "path",
+              "required": true,
+              "description": "A repository name (string)"
+            },
+            {
+              "name": "branch",
+              "in": "path",
+              "required": true,
+              "description": "A repository branch name (string)"
+            }
+      ],
+        "responses": {
+          "200": {
+            "description": "A JSON array of gitbranches",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/branchInfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gitRepo": {
+      "get": {
+        "summary": "Get all available github repository",
+        "description": "Return all githuub repo for project to select",
+        "responses": {
+          "200": {
+            "description": "A JSON array of gitbranches",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Repo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+      "/projectConnection/:projectId/:githubName": {
+        "post": {
+          "summary": "Connect project ID with github Name",
+          "description": "Insert project id and github name to db",
+          "parameters": [
+              {
+                "name": "projectId",
+                "in": "path",
+                "required": true,
+                "description": "project primary key in db (string)"
+              },
+              {
+                "name": "githubName",
+                "in": "path",
+                "required": true,
+                "description": "github's repo name (string)"
+              }
+        ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/createProjectGithubName"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/projectConnection/githubName/:projectId": {
+        "get": {
+          "summary": "get github repo name by project id",
+          "description": "get githubu repo name from database displaying existing project info",
+          "parameters": [
+              {
+                "name": "projectId",
+                "in": "path",
+                "required": true,
+                "description": "project primary key in db (string)"
+              }
+        ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/getProjectGithubName"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/projectConnection/update/:projectId/:githubName": {
+        "put": {
+          "summary": "update github repo name by project Id",
+          "description": "update github repo name by project Id",
+          "parameters": [
+              {
+                "name": "projectId",
+                "in": "path",
+                "required": true,
+                "description": "project primary key in db (string)"
+              }
+        ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/updateProjectGithubName"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/projectConnection/timerInfo/:projectId/:taskId": {
+        "get": {
+          "summary": "get timer status and pass time by project Id and task ID",
+          "description": "if timer status is none, it means timer is not ever started before,if timer status is running, it means timer is not stopped and you should take time as a reference + pass_seconds to calculate the pass time",
+          "parameters": [
+              {
+                "name": "taskId",
+                "in": "path",
+                "required": true,
+                "description": "task primary key in db (Integer)"
+              },
+              {
+                "name": "projectId",
+                "in": "path",
+                "required": true,
+                "description": "project primary key in db (Integer)"
+              }
+        ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/TimerInfo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/projectConnection/timerInfo/:projectId/:taskId/:time": {
+        "post": {
+          "summary": "create timer record when the timer is started",
+          "description": "timer status will be updated to running. front end should pass started time in YYYY-MMMM-DDDD 00:00:00 format",
+            "parameters": [
+                {
+                  "name": "taskId",
+                  "in": "path",
+                  "required": true,
+                  "description": "task primary key in db (Integer)"
+                },
+                {
+                  "name": "projectId",
+                  "in": "path",
+                  "required": true,
+                  "description": "project primary key in db (Integer)"
+                },
+                {
+                  "name": "time",
+                  "in": "path",
+                  "required": true,
+                  "description": "time format: 2022-10-30 20:00:00"
+                }
+          ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/POSTTimerInfo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "put": {
+          "summary": "get timer status and pass time by project Id and task ID",
+          "description": "if timer status is none, it means timer is not ever started before,if timer status is running, it means timer is not stopped and you should take time as a reference + pass_seconds to calculate the pass time",
+          "parameters": [
+              {
+                "name": "taskId",
+                "in": "path",
+                "required": true,
+                "description": "task primary key in db (Integer)"
+              },
+              {
+                "name": "projectId",
+                "in": "path",
+                "required": true,
+                "description": "project primary key in db (Integer)"
+              },
+              {
+                "name": "time",
+                "in": "path",
+                "required": true,
+                "description": "time format: 2022-10-30 20:00:00"
+              }
+        ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/UPDATETimerInfo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/machineLearning/Info": {
+        "get": {
+          "summary": "get all information that machine learning needed to train the model including hours, minutes , project Name, task Name and member name",
+          "description": "Total used time = total_hours + remainder_minutes. Front end may need to convert minutes into hours format : e.g. 15 minutes => 0.25 hours",
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/GETMLTrainInfo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/machineLearning/Info/:projectId/:taskId": {
+        "get": {
+          "summary": "get all information that machine learning needed to train the model including hours, minutes , project Name, task Name and member name",
+          "description": "Total used time = total_hours + remainder_minutes. Front end may need to convert minutes into hours format : e.g. 15 minutes => 0.25 hours",
+          "parameters": [
+              {
+                "name": "taskId",
+                "in": "path",
+                "required": true,
+                "description": "task primary key in db (Integer)"
+              },
+              {
+                "name": "projectId",
+                "in": "path",
+                "required": true,
+                "description": "project primary key in db (Integer)"
+              }
+        ],
+          "responses": {
+            "200": {
+              "description": "A JSON array of gitbranches",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/GETMLTrainInfo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  },
+  "components": {
+    "schemas": {
+      "GETMLTrainInfo": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "get successfully"
+          },
+          "data": {
+            "type": "Array",
+            "example": [
+        {
+            "updated_date": "2022-10-02T16:00:00.000Z",
+            "project_name": "test2",
+            "task_name": "1\n",
+            "memeber_name": "admin",
+            "total_hours": 11,
+            "remainder_minutes": 0
+        },
+        {
+            "updated_date": "2022-10-17T16:00:00.000Z",
+            "project_name": "test2",
+            "task_name": "1\n",
+            "memeber_name": "admin",
+            "total_hours": 22,
+            "remainder_minutes": 0
+        },
+        {
+            "updated_date": "2022-10-23T16:00:00.000Z",
+            "project_name": "test2",
+            "task_name": "1\n",
+            "memeber_name": "admin",
+            "total_hours": 48,
+            "remainder_minutes": 0
+        },
+        {
+            "updated_date": "2022-10-29T16:00:00.000Z",
+            "project_name": "test2",
+            "task_name": "1\n",
+            "memeber_name": "admin",
+            "total_hours": 11,
+            "remainder_minutes": 10
+        }
+    ]
+          }
+        }
+      },
+      "UPDATETimerInfo": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "updated successfully"
+          },
+          "data": {
+            "type": "Object",
+            "example": {
+            "timerInfo": true,
+            "projectId": "222",
+            "time": "2022-10-30 00:15:00"
+          }
+          }
+        }
+      },
+      "POSTTimerInfo": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "created successfully"
+          },
+          "data": {
+            "type": "Object",
+            "example": {
+        "timerInfo": true,
+        "projectId": "222",
+        "time": "2022-10-30 00:15:00"
+    }
+          }
+        }
+      },
+      "TimerInfo": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "get successfully"
+          },
+          "data": {
+            "type": "array",
+            "example": [
+              {
+                  "time": null,
+                  "status": "stop",
+                  "total_seconds": 1904400
+              }
+            ]
+          }
+        }
+      },
+      "updateProjectGithubName": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "update successfully"
+          },
+          "data": {
+            "type": "Object",
+            "example": {
+              "githubName": "werwr",
+              "projectId": "123"
+            }
+          }
+        }
+      },
+      "getProjectGithubName": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "get successfully"
+          },
+          "data": {
+            "type": "Array",
+            "example": [
+                {
+                    "github_name": "fkkkkkk"
+                }
+            ]
+          }
+        }
+      },
+      "createProjectGithubName": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "create successfully"
+          },
+          "data": {
+            "type": "array",
+            "example": {
+              "githubName": "werwr",
+              "projectId": "123"
+            }
+          }
+        }
+      },
+      "Repo": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "get branch information"
+          },
+          "data":{
+            "type": "array",
+            "example":  [
+                {
+                  "id": 506852363,
+                  "name": "Aflame-WheelChair-AR",
+                  "node_id": "R_kgDOHjX0Cw"
+                },
+                {
+                  "id": 522858801,
+                  "name": "api-documentation",
+                  "node_id": "R_kgDOHyoxMQ"
+                },
+                {
+                  "id": 508224178,
+                  "name": "AR-WheelChair",
+                  "node_id": "R_kgDOHkrisg"
+                }
+            ]
+          }
+        },
+        "required": ["status", "message", "data"]
+      },
+      "branchInfo": {
+        "properties": {
+          "status": {
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "get branch information"
+          },
+          "data": {
+            "type": "Object",
+            "example": {
+                "files": [
+                  {
+                    "sha": "f2d554d290c22eb1845b7ce1f34836ae8994c625",
+                    "filename": "README.md",
+                    "status": "modified",
+                    "additions": 0,
+                    "deletions": 1,
+                    "changes": 1,
+                    "blob_url": "https://github.com/pwliuab/Comp3021lab/blob/5ec83087ae8d607aba23b22823a01e993de37d38/README.md",
+                    "raw_url": "https://github.com/pwliuab/Comp3021lab/raw/5ec83087ae8d607aba23b22823a01e993de37d38/README.md",
+                    "contents_url": "https://api.github.com/repos/pwliuab/Comp3021lab/contents/README.md?ref=5ec83087ae8d607aba23b22823a01e993de37d38",
+                    "patch": "@@ -1,5 +1,4 @@\n # Comp3021lab\n-Pak Wai Liu ID 20610588\n \n # Lab 2 result: \n "
+                  }
+                ],
+                "message": "Update README.md",
+                "branchName": "main"
+            }
+          }
+        },
+        "required": ["status", "message", "data"]
+      },
+      "Branch": {
+        "properties": {
+          "status":{
+            "type": "integer",
+            "format": "int64",
+            "example": 200
+          },
+          "message": {
+            "type": "string",
+            "example": "get request success"
+          },
+          "data": {
+            "type": "array",
+            "example": [{"branch_name":"main","commit":{"sha":"5ec83087ae8d607aba23b22823a01e993de37d38","url":"https://api.github.com/repos/pwliuab/Comp3021lab/commits/5ec83087ae8d607aba23b22823a01e993de37d38"}}]
+          }
+        },
+        "required": ["status", "message", "data"]
+      }
+    }
+  }
+}

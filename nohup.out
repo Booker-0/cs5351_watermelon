@@ -1,0 +1,2377 @@
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index index.js`[39m
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:217:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:524:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index index.js`[39m
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:217:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:524:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index index.js`[39m
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:217:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:524:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+[33m[nodemon] 2.0.20[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node index index.js`[39m
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at internal/fs/streams.js:217:14
+    at FSReqCallback.wrapper [as oncomplete] (fs.js:524:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+Example app listening on port 3000
+internal/modules/cjs/loader.js:1032
+  throw err;
+  ^
+
+Error: Cannot find module '/home/group1/watermelon/backend/sfeng/indexx'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1029:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:898:27)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Example app listening on port 3000
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/route/project.js:11
+module.exports.createTimer = router.post(`/projectConnection/timerInfo/:projectId/:taskId/:time`, controller.createTimer);
+                             ^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/home/group1/watermelon/backend/sfeng/route/project.js:11:30)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Module.require (internal/modules/cjs/loader.js:1089:19)
+    at require (internal/modules/cjs/helpers.js:73:18)
+    at Object.<anonymous> (/home/group1/watermelon/backend/sfeng/index.js:13:1)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+Example app listening on port 3000
+Example app listening on port 3000
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sat, 12 Nov 2022 10:22:47 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '8730:2D7B:50D484:55364A:636F73F6',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5849',
+      'x-ratelimit-reset': '1668252167',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '1',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+Example app listening on port 3000
+Example app listening on port 3000
+Example app listening on port 3000
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3ACS-softwareEngineering-Node/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:39:36 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '893C:69EB:D9960:E7EBE:6370AD48',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5810',
+      'x-ratelimit-reset': '1668329044',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '40',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3ACS-softwareEngineering-Node/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:40:48 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '8940:3110:D77C77:E2A9C0:6370AD90',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5809',
+      'x-ratelimit-reset': '1668329044',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '41',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:41:09 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '8944:03AB:58AB3D:5E280A:6370ADA5',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5808',
+      'x-ratelimit-reset': '1668329044',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '42',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:42:18 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '894A:320F:67814:6E640:6370ADEA',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5807',
+      'x-ratelimit-reset': '1668329044',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '43',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:44:46 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '894E:4107:281CDE:2A48F6:6370AE7E',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5849',
+      'x-ratelimit-reset': '1668332686',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '1',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:48:12 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '8952:1B7A:D0F9C7:DC327A:6370AF4C',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5848',
+      'x-ratelimit-reset': '1668332686',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '2',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:50:27 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '895A:0B21:C6F705:D2340E:6370AFD3',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5846',
+      'x-ratelimit-reset': '1668332686',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '4',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3Arepo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/%3AHKUST-Comp4021/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 08:52:16 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '895E:0826:6C5186:72270D:6370B040',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5845',
+      'x-ratelimit-reset': '1668332686',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '5',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/%3AHKUST-Comp4021/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_DUP_ENTRY: Duplicate entry '13093-api-documentation' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '13093-api-documentation' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(13093, 'api-documentation')"
+}
+Example app listening on port 3000
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/Comp3021lab%27/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 14:20:50 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '8A72:68E7:EADA06:F7C455:6370FD42',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5845',
+      'x-ratelimit-reset': '1668352724',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '5',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/Comp3021lab%27/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/Comp3021labvue/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Sun, 13 Nov 2022 14:32:24 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '8AA0:5E8E:FFD673:10CCFB7:6370FFF7',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5834',
+      'x-ratelimit-reset': '1668352724',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '16',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/reference/repos#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/Comp3021labvue/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_DUP_ENTRY: Duplicate entry '13099-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '13099-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(13099, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_DUP_ENTRY: Duplicate entry '13099-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '13099-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(13099, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column '7ae40c23c7704cffbaacb06d0130e532' in 'field list'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column '7ae40c23c7704cffbaacb06d0130e532' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(7ae40c23c7704cffbaacb06d0130e532, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column '7ae40c23c7704cffbaacb06d0130e532' in 'field list'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column '7ae40c23c7704cffbaacb06d0130e532' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(7ae40c23c7704cffbaacb06d0130e532, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column '7ae40c23c7704cffbaacb06d0130e532' in 'field list'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column '7ae40c23c7704cffbaacb06d0130e532' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(7ae40c23c7704cffbaacb06d0130e532, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column '9d0a98c38af34a8c8963870d89bf759a' in 'field list'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column '9d0a98c38af34a8c8963870d89bf759a' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(9d0a98c38af34a8c8963870d89bf759a, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column '9d0a98c38af34a8c8963870d89bf759a' in 'field list'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column '9d0a98c38af34a8c8963870d89bf759a' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(9d0a98c38af34a8c8963870d89bf759a, 'Comp3111_lab6')"
+}
+Example app listening on port 3000
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: ER_BAD_FIELD_ERROR: Unknown column 'githubName' in 'field list'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:106:19)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at param (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:365:14)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Query.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:153:12)
+    at Query.emit (events.js:315:20)
+    at Query.Sequence.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:78:12)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'githubName' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(githubName, '1')"
+}
+Example app listening on port 3000
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.getBranchNameByTaskId (/home/group1/watermelon/backend/sfeng/service/project.js:240:26)
+    at module.exports.getBranchNameByTaskId (/home/group1/watermelon/backend/sfeng/controller/project.js:110:45)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'SELECT branch_name FROM team_task WHERE id = undefined'
+}
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.getBranchNameByTaskId (/home/group1/watermelon/backend/sfeng/service/project.js:240:26)
+    at module.exports.getBranchNameByTaskId (/home/group1/watermelon/backend/sfeng/controller/project.js:110:45)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'SELECT branch_name FROM team_task WHERE id = undefined'
+}
+undefined
+undefined
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/service/project.js:230:26)
+    at module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/controller/project.js:121:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "UPDATE team_task SET branch_name = 'undefined' WHERE id = undefined"
+}
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/service/project.js:230:26)
+    at module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/controller/project.js:121:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "UPDATE team_task SET branch_name = 'undefined' WHERE id = undefined"
+}
+undefined
+undefined
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/service/project.js:230:26)
+    at module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/controller/project.js:121:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "UPDATE team_task SET branch_name = 'undefined' WHERE id = undefined"
+}
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/service/project.js:230:26)
+    at module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/controller/project.js:121:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "UPDATE team_task SET branch_name = 'undefined' WHERE id = undefined"
+}
+Paul_branch
+12502
+master
+undefined
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/service/project.js:230:26)
+    at module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/controller/project.js:121:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "UPDATE team_task SET branch_name = 'master' WHERE id = undefined"
+}
+Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/service/project.js:230:26)
+    at module.exports.connectBranchToTask (/home/group1/watermelon/backend/sfeng/controller/project.js:121:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "UPDATE team_task SET branch_name = 'master' WHERE id = undefined"
+}
+Paulbranch
+12502
+master
+12502
+nk_2020s
+12502
+master
+12502
+Paulbranch
+12544
+master
+12544
+Paulbranch
+12544
+master
+12544
+RequestError [HttpError]: Not Found
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getAllBranches (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:7:17)
+    at async module.exports.getBranchList (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:7:30) {
+  status: 404,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/repo/branches',
+    status: 404,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 17 Nov 2022 04:19:15 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '9172:0AF5:7A449E:802251:6375B643',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5837',
+      'x-ratelimit-reset': '1668660922',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '13',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'Not Found',
+      documentation_url: 'https://docs.github.com/rest/branches/branches#list-branches'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/repo/branches',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+Paulbranch
+12502
+master
+12502
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1224:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:94:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+Example app listening on port 3000
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:132:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:132:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:132:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:132:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+main
+12502
+RequestError [HttpError]: No commit found for SHA: main
+    at /home/group1/watermelon/backend/sfeng/node_modules/@octokit/request/dist-node/index.js:88:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async sendRequestWithRetries (/home/group1/watermelon/backend/sfeng/node_modules/@octokit/auth-app/dist-node/index.js:376:12)
+    at async Object.module.exports.getBranchAllcommitInfo (/home/group1/watermelon/backend/sfeng/service/gitBranch.js:20:24)
+    at async module.exports.getBranchInfo (/home/group1/watermelon/backend/sfeng/controller/gitBranch.js:18:28) {
+  status: 422,
+  response: {
+    url: 'https://api.github.com/repos/pwliuab/Comp3111_lab6/commits/main',
+    status: 422,
+    headers: {
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+      connection: 'close',
+      'content-length': '123',
+      'content-security-policy': "default-src 'none'",
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Fri, 18 Nov 2022 15:33:39 GMT',
+      'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+      server: 'GitHub.com',
+      'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+      vary: 'Accept-Encoding, Accept, X-Requested-With',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'deny',
+      'x-github-media-type': 'github.v3; format=json',
+      'x-github-request-id': '944C:09D5:D9C04A:E2DE94:6377A5D3',
+      'x-ratelimit-limit': '5850',
+      'x-ratelimit-remaining': '5843',
+      'x-ratelimit-reset': '1668789055',
+      'x-ratelimit-resource': 'core',
+      'x-ratelimit-used': '7',
+      'x-xss-protection': '0'
+    },
+    data: {
+      message: 'No commit found for SHA: main',
+      documentation_url: 'https://docs.github.com/rest/commits/commits#get-a-commit'
+    }
+  },
+  request: {
+    method: 'GET',
+    url: 'https://api.github.com/repos/pwliuab/Comp3111_lab6/commits/main',
+    headers: {
+      accept: 'application/vnd.github.v3+json',
+      'user-agent': 'octokit-core.js/4.0.5 Node.js/14.4.0 (linux; x64)',
+      authorization: 'token [REDACTED]'
+    },
+    request: { hook: [Function: bound bound register] }
+  }
+}
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+main
+12502
+getting the project github name by id
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:132:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:112:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:111:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:132:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+main
+12502
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+Example app listening on port 3000
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+main
+12502
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+main
+12502
+{ data: [ 0.75 ], employee: 'admin', projecetName: '示例项目' }
+[ 0.75 ]
+TypeError: dataArray.forEach is not a function
+    at formatMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:123:13)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:265:22)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+TypeError: dataArray.forEach is not a function
+    at formatMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:123:13)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:265:22)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+getting the project github name by id
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+getting the project github name by id
+getting the project github name by id
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+getting the project github name by id
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+Error: ER_DUP_ENTRY: Duplicate entry '1-Comp3111_lab6' for key 'project_id'
+    at Query.Sequence._packetToError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:302:12)
+    --------------------
+    at Protocol._enqueue (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/group1/watermelon/backend/sfeng/service/project.js:113:11
+    at new Promise (<anonymous>)
+    at asyncGetQuery (/home/group1/watermelon/backend/sfeng/service/project.js:112:10)
+    at Object.module.exports.mapeGithubToProject (/home/group1/watermelon/backend/sfeng/service/project.js:144:13)
+    at module.exports.connectProjectWithGithub (/home/group1/watermelon/backend/sfeng/controller/project.js:8:26)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3) {
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlMessage: "Duplicate entry '1-Comp3111_lab6' for key 'project_id'",
+  sqlState: '23000',
+  index: 0,
+  sql: "INSERT INTO projectGithubConnection_tbl(project_id, github_name) Values(1, 'Comp3111_lab6')"
+}
+getting the project github name by id
+main
+12502
+{}
+undefined
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Object.module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/service/project.js:264:17)
+    at module.exports.trainMachineLearningData (/home/group1/watermelon/backend/sfeng/controller/project.js:144:41)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/layer.js:95:5)
+    at /home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/group1/watermelon/backend/sfeng/node_modules/express/lib/router/index.js:280:10)
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1224:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+Emitted 'error' event on Connection instance at:
+    at Connection._handleProtocolError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:423:8)
+    at Protocol.emit (events.js:315:20)
+    at Protocol._delegateError (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:398:10)
+    at Protocol.end (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/protocol/Protocol.js:116:8)
+    at Socket.<anonymous> (/home/group1/watermelon/backend/sfeng/node_modules/mysql/lib/Connection.js:94:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
